@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="802.0" style="-fx-background-color: #000000;" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmangementsystem3.prisoncontroller">
+   <children>
+      <ImageView fitHeight="126.0" fitWidth="126.0" layoutX="34.0" layoutY="64.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../IdeaProjects/Prisonmangementsystem3/src/main/resources/com/example/prisonmangementsystem3/addprisoners.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="132.0" fitWidth="126.0" layoutX="229.0" layoutY="71.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../IdeaProjects/Prisonmangementsystem3/src/main/resources/com/example/prisonmangementsystem3/prisonvistorsicon.jpg" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="109.0" fitWidth="117.0" layoutX="418.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../IdeaProjects/Prisonmangementsystem3/src/main/resources/com/example/prisonmangementsystem3/medicalprisoners.png" />
+         </image>
+      </ImageView>
+      <ImageView fitHeight="126.0" fitWidth="117.0" layoutX="606.0" layoutY="85.0" pickOnBounds="true" preserveRatio="true">
+         <image>
+            <Image url="@../../../../../../../../IdeaProjects/Prisonmangementsystem3/src/main/resources/com/example/prisonmangementsystem3/prisonertask.jpg" />
+         </image>
+      </ImageView>
+      <Button fx:id="prisonersbutton" layoutX="65.0" layoutY="198.0" mnemonicParsing="false" onAction="#onprisonersbuttonclick" text="prisoners" />
+      <Button fx:id="vistorsbutton" layoutX="266.0" layoutY="210.0" mnemonicParsing="false" onAction="#onvistorsbuttonclick" text="Vistors" />
+      <Button fx:id="healthbutton" layoutX="413.0" layoutY="210.0" mnemonicParsing="false" onAction="#onhealthbuttonclick" text="Prisoner medical info" />
+      <Button fx:id="taskbutton" layoutX="623.0" layoutY="210.0" mnemonicParsing="false" onAction="#ontaskbuttonclick" text="Prisoner task" />
+   </children>
+</AnchorPane>

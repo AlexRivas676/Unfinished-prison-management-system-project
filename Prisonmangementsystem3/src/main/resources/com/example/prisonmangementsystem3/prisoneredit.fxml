@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="628.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmangementsystem3.prisoncontroller">
+   <children>
+      <Label layoutX="48.0" layoutY="76.0" prefHeight="52.0" prefWidth="123.0" text="prisoner first name :" />
+      <Label layoutX="56.0" layoutY="110.0" prefHeight="52.0" prefWidth="123.0" text="prisoner middle name :" />
+      <Label layoutX="56.0" layoutY="146.0" prefHeight="52.0" prefWidth="123.0" text="prisoner last name :" />
+      <Label layoutX="56.0" layoutY="181.0" prefHeight="52.0" prefWidth="123.0" text="prisoner SSN :" />
+      <Label layoutX="56.0" layoutY="207.0" prefHeight="52.0" prefWidth="123.0" text="prisoner DOB :" />
+      <Label layoutX="48.0" layoutY="239.0" prefHeight="52.0" prefWidth="123.0" text="prisoner Address :" />
+      <Label layoutX="48.0" layoutY="276.0" prefHeight="52.0" prefWidth="123.0" text="prisoner cell:" />
+      <Label layoutX="48.0" layoutY="302.0" prefHeight="52.0" prefWidth="123.0" text="prisoner's crime :" />
+      <Label layoutX="48.0" layoutY="338.0" prefHeight="52.0" prefWidth="123.0" text=" crime jurdiisction :" />
+      <Label layoutX="48.0" layoutY="373.0" prefHeight="52.0" prefWidth="123.0" text="prisoner Sentence :" />
+      <Label layoutX="38.0" layoutY="412.0" prefHeight="52.0" prefWidth="123.0" text="Eligible for parole" />
+      <Label layoutX="38.0" layoutY="448.0" prefHeight="52.0" prefWidth="123.0" text="prisoner's artifact" />
+      <Label layoutX="30.0" layoutY="485.0" prefHeight="52.0" prefWidth="123.0" text="prisoner's money " />
+      <TextField layoutX="179.0" layoutY="91.0" />
+      <TextField layoutX="179.0" layoutY="124.0" />
+      <TextField layoutX="179.0" layoutY="160.0" />
+      <TextField layoutX="179.0" layoutY="195.0" />
+      <ComboBox layoutX="100.0" layoutY="21.0" prefHeight="25.0" prefWidth="244.0" />
+      <TextField layoutX="179.0" layoutY="221.0" />
+      <TextField layoutX="179.0" layoutY="253.0" />
+      <TextField layoutX="171.0" layoutY="290.0" />
+      <TextField layoutX="171.0" layoutY="316.0" />
+      <TextField layoutX="171.0" layoutY="352.0" />
+      <TextField layoutX="171.0" layoutY="387.0" />
+      <TextField layoutX="171.0" layoutY="426.0" />
+      <TextField layoutX="171.0" layoutY="462.0" />
+      <TextField layoutX="161.0" layoutY="498.0" />
+      <Button fx:id="prisonersave" layoutX="495.0" layoutY="583.0" mnemonicParsing="false" text="save" />
+      <Button fx:id="backbutton" layoutX="408.0" layoutY="583.0" mnemonicParsing="false" onAction="#onbackbuton" text="back" />
+      <Label layoutX="23.0" layoutY="537.0" prefHeight="17.0" prefWidth="137.0" text="prisoner intake date:" />
+      <Label layoutX="23.0" layoutY="566.0" text="prisoners;s release date:" />
+      <TextField layoutX="161.0" layoutY="533.0" />
+      <TextField layoutX="161.0" layoutY="562.0" />
+   </children>
+</AnchorPane>

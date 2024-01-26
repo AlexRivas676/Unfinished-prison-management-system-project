@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmangementsystem3.prisoncontroller">
+   <children>
+      <Button layoutX="227.0" layoutY="205.0" mnemonicParsing="false" text="view vistors" />
+      <Button fx:id="addvistor" layoutX="227.0" layoutY="273.0" mnemonicParsing="false" onAction="#onaddvistorbutton" text="Add Vistor" />
+      <Button fx:id="editvistor" layoutX="227.0" layoutY="327.0" mnemonicParsing="false" onAction="#oneditvistorbutton" text="Edit Vistor" />
+   </children>
+</AnchorPane>

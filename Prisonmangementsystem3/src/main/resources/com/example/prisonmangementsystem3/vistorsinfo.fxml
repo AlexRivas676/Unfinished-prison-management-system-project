@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="570.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.example.prisonmangementsystem3.prisoncontroller">
+   <children>
+      <Label layoutX="56.0" layoutY="77.0" prefHeight="52.0" prefWidth="123.0" text="Vistors name :" />
+      <Label layoutX="56.0" layoutY="110.0" prefHeight="52.0" prefWidth="123.0" text="Vistors Address :" />
+      <Label layoutX="56.0" layoutY="146.0" prefHeight="52.0" prefWidth="123.0" text="Vistors Phonenumber:" />
+      <TextField fx:id="vnametext" layoutX="179.0" layoutY="91.0" />
+      <TextField fx:id="vaddresstext" layoutX="179.0" layoutY="124.0" />
+      <TextField fx:id="vphonetext" layoutX="179.0" layoutY="160.0" />
+      <Button layoutX="443.0" layoutY="493.0" mnemonicParsing="false" onAction="#onsavevistorsbutton" text="Save" />
+      <Button fx:id="backbutton" layoutX="328.0" layoutY="493.0" mnemonicParsing="false" onAction="#onbackbuton" text="back" />
+   </children>
+</AnchorPane>
